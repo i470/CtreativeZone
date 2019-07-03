@@ -1,0 +1,53 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SpyGlass.Core"
+             xmlns:Wpf="clr-namespace:SpyGlass.Design.Wpf;assembly=SpyGlass.Design" xmlns:Wpf1="clr-namespace:LiveCharts.Wpf;assembly=SpyGlass.Design" x:Class="SpyGlass.Core.cdOutputControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="340" d:DesignWidth="200">
+    <Grid>
+
+        <Wpf:Card x:Name="cdOutput" Grid.Column="2" UniformCornerRadius="3" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="140" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid Background="{DynamicResource Blue}">
+                    <Border BorderThickness="0"  Height="140"  Background="{DynamicResource Blue}" CornerRadius="3" Margin="-1,-2,1,0" Padding="8" >
+                        <Wpf1:Gauge From="0" 
+                            To="40" 
+
+                            FromColor="{DynamicResource PinkColor}" 
+                            ToColor="MediumVioletRed" Margin="0,0,0,20"  Value="{Binding Value, ElementName=sldrOutput}"/>
+                    </Border>
+                </Grid>
+                <Button Grid.Row="0" Style="{DynamicResource FloatingActionMiniLightButton}" 
+                    HorizontalAlignment="Right" VerticalAlignment="Bottom" 
+                    Margin="0 0 16 -20">
+                    <Wpf:PackIcon Kind="EngineOffOutline" Foreground="{DynamicResource Base300}" Width="24" Height="24" />
+                </Button>
+                <StackPanel Grid.Row="1" Margin="8 24 8 0" >
+                    <TextBlock FontWeight="Bold" FontSize="18"><Run Text="Output Motor"/></TextBlock>
+                    <TextBlock TextWrapping="Wrap" VerticalAlignment="Center"><Run Text="You can start or stop shredder motor and set speed from 0 to 40 RPM."/></TextBlock>
+                </StackPanel>
+                <Grid HorizontalAlignment="Stretch" Grid.Row="2" Margin="8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition Width="36"/>
+                    </Grid.ColumnDefinitions>
+                    <Slider x:Name="sldrOutput"   TickFrequency="5" TickPlacement="BottomRight" Value="{Binding OutputMotorSpeed}" SmallChange="1" LargeChange="5" Minimum="0" Maximum="40" Margin="5,0" VerticalAlignment="Center" />
+                    <Button Grid.Column="1" Style="{StaticResource ToolButton}" Width="30" Padding="2 0 2 0"
+                        Wpf:RippleAssist.IsCentered="True">
+                        <Wpf:PackIcon Kind="Heart" />
+                    </Button>
+
+                </Grid>
+            </Grid>
+        </Wpf:Card>
+
+    </Grid>
+</UserControl>

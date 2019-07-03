@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="SpyGlass.Core.Views.ContextViews.MessagesContextView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SpyGlass.Core.Views.ContextViews"
+             xmlns:mvvm="http://prismlibrary.com/"
+             xmlns:wpf="clr-namespace:SpyGlass.Design.Wpf;assembly=SpyGlass.Design"
+             xmlns:messages="clr-namespace:SpyGlass.Messages;assembly=SpyGlass.Messages"
+             mvvm:ViewModelLocator.AutoWireViewModel="True"
+             mc:Ignorable="d" 
+             Background="{DynamicResource Base100}"
+             Foreground="{DynamicResource Body}"
+             d:DesignHeight="450" d:DesignWidth="253" >
+    <UserControl.Resources>
+       <messages:MessageTypeIconConverter x:Key="cvtr" />
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="11*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="{Binding Title}" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,10"/>
+            <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5">
+            <wpf:PackIcon  Kind="FaceProfile" Margin="5,0" />
+            <wpf:PackIcon  Kind="Alarm" Margin="5,0"/>
+        </StackPanel>
+        <ItemsControl Grid.Row="3" Margin="2,10" ItemsSource="{Binding Messages}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20" />
+                            <ColumnDefinition Width="Auto" />
+
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <wpf:PackIcon Kind="{Binding Type, Converter={StaticResource cvtr}}" Width="14" Height="14" HorizontalAlignment="Center" VerticalAlignment="top" Margin="2" />
+                        <TextBlock Text="{Binding ReceivedOn,StringFormat=hh:mm:sstt}" Margin="2" FontSize="10" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" />
+
+                        <TextBlock Text="{Binding Text}" Margin="2" TextWrapping="Wrap" FontSize="10" Grid.Column="2" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    </Grid>
+
+
+                    <!--<wpf:PackIcon Kind=""  />-->
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </Grid>
+</UserControl>

@@ -1,0 +1,19 @@
+﻿<Application x:Class="SpyGlass.Design.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SpyGlass.Design"
+             StartupUri="Demo/Buttons.xaml">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Colors-Soft.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/SpyGlass.Design;component/Themes/SpyGlass.Dark.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/SpyGlass.Design;component/Themes/SpyGlass.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/SpyGlass.Design;component/Themes/Colors/Gradients.xaml" />
+                <!--<ResourceDictionary Source="pack://application:,,,/SpyGlass.Design;component/Themes/Colors/Blue.xaml" />-->
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+<!-- more colors-->
+    </Application.Resources>
+</Application>

@@ -1,0 +1,173 @@
+﻿<UserControl x:Class="SpyGlass.Core.Views.MainMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SpyGlass.Core.Views"
+             xmlns:wpf="clr-namespace:SpyGlass.Design.Wpf;assembly=SpyGlass.Design"
+             mc:Ignorable="d" 
+             Background="{DynamicResource Base200}"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+        
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="8*" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Welcome, Jow Dones, to CPS 8000 Control System. All connections have been verified and all systems are ready to engage. Please make your selection: "
+                   FontSize="26"  VerticalAlignment="Center" 
+                   TextWrapping="Wrap"
+                   HorizontalAlignment="Center" Margin="100,100,100,20" />
+        <Grid Margin="50" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100" />
+                    <RowDefinition Height="100" />
+                    <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Button Content="SHIFT" Click="ButtonBase_OnClick" CommandParameter="ShiftView" Background="{DynamicResource PrimaryHueMidBrush}" Command="{Binding NavigateCommand}" 
+                    Margin="10" VerticalAlignment="Center" HorizontalAlignment="Stretch" Height="80">
+    <Button.ContentTemplate>
+        <DataTemplate>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="42"/>
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <wpf:PackIcon Kind="Account" Foreground="{DynamicResource Base200}" Height="36" Width="36" />
+                <TextBlock Grid.Column="1" Text="SHIFT" FontSize="20" Foreground="{DynamicResource Base200}" VerticalAlignment="Center"/>
+            </Grid>
+        </DataTemplate>
+    </Button.ContentTemplate>
+</Button>
+
+
+
+            <Button Content="RBDM" Command="{Binding NavigateToShiftCommand}" Grid.Column="1" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Stretch" Height="80">
+                <Button.ContentTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="42"/>
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <wpf:PackIcon Kind="SetAll" Foreground="{DynamicResource Base200}" Height="36" Width="36" />
+                            <TextBlock Grid.Column="1" Text="RBDM" FontSize="20" Foreground="{DynamicResource Base200}" VerticalAlignment="Center"/>
+                        </Grid>
+                    </DataTemplate>
+                </Button.ContentTemplate>
+            </Button>
+
+            <Button Content="DIAGNOSTICS" Command="{Binding NavigateCommand}" CommandParameter="DiagnosticsView" Grid.Column="2" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Stretch" Height="80">
+                <Button.ContentTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="42"/>
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <wpf:PackIcon Kind="DiamondOutline" Foreground="{DynamicResource Base200}" Height="36" Width="36" />
+                            <TextBlock Grid.Column="1" Text="DIAGNOSTICS" FontSize="20" Foreground="{DynamicResource Base200}" VerticalAlignment="Center"/>
+                        </Grid>
+                    </DataTemplate>
+                </Button.ContentTemplate>
+            </Button>
+
+            <Button Content="PERFORMANCE" Command="{Binding NavigateToShiftCommand}" Grid.Column="0" Grid.Row="1" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Stretch" Height="80">
+                <Button.ContentTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="42"/>
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <wpf:PackIcon Kind="RunFast" Foreground="{DynamicResource Base200}" Height="36" Width="36" />
+                            <TextBlock Grid.Column="1" Text="PERFORMANCE" FontSize="20" Foreground="{DynamicResource Base200}" VerticalAlignment="Center"/>
+                        </Grid>
+                    </DataTemplate>
+                </Button.ContentTemplate>
+            </Button>
+            <Button Content="JAM TOOLKIT" Command="{Binding NavigateToShiftCommand}" Grid.Column="1" Grid.Row="1" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Stretch" Height="80">
+                <Button.ContentTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="42"/>
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <wpf:PackIcon Kind="Toolbox" Foreground="{DynamicResource Base200}" Height="36" Width="36" />
+                            <TextBlock Grid.Column="1" Text="JAM TOOLKIT" FontSize="20" Foreground="{DynamicResource Base200}" VerticalAlignment="Center"/>
+                        </Grid>
+                    </DataTemplate>
+                </Button.ContentTemplate>
+            </Button>
+            <Button Content="SETTINGS" Command="{Binding NavigateToShiftCommand}" Grid.Column="2" Grid.Row="1" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Stretch" Height="80">
+                <Button.ContentTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="42"/>
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <wpf:PackIcon Kind="SettingsApplications" Foreground="{DynamicResource Base200}" Height="36" Width="36" />
+                            <TextBlock Grid.Column="1" Text="SETTINGS" FontSize="20" Foreground="{DynamicResource Base200}" VerticalAlignment="Center"/>
+                        </Grid>
+                    </DataTemplate>
+                </Button.ContentTemplate>
+            </Button>
+            <Button Content="LOGS" Command="{Binding NavigateToShiftCommand}" Grid.Column="0" Grid.Row="2" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Stretch" Height="80">
+                <Button.ContentTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="42"/>
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <wpf:PackIcon Kind="LocalGasStation" Foreground="{DynamicResource Base200}" Height="36" Width="36" />
+                            <TextBlock Grid.Column="1" Text="LOGS" FontSize="20" Foreground="{DynamicResource Base200}" VerticalAlignment="Center"/>
+                        </Grid>
+                    </DataTemplate>
+                </Button.ContentTemplate>
+            </Button>
+            <Button Content="TEST MODE" Command="{Binding NavigateCommand}" 
+                    CommandParameter="viewPort3dControl"
+                    Grid.Column="1" Grid.Row="2" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Stretch" Height="80">
+                <Button.ContentTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="42"/>
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <wpf:PackIcon Kind="TestTube" Foreground="{DynamicResource Base200}" Height="36" Width="36" />
+                            <TextBlock Grid.Column="1" Text="TEST MODE" FontSize="20" Foreground="{DynamicResource Base200}" VerticalAlignment="Center"/>
+                        </Grid>
+                    </DataTemplate>
+                </Button.ContentTemplate>
+            </Button>
+            <Button Content="USER MANUAL" Command="{Binding NavigateToShiftCommand}" Grid.Column="2" Grid.Row="2" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Stretch" Height="80">
+                <Button.ContentTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="42"/>
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <wpf:PackIcon Kind="Manufacturing" Foreground="{DynamicResource Base200}" Height="36" Width="36" />
+                            <TextBlock Grid.Column="1" Text="USER MANUAL" FontSize="20" Foreground="{DynamicResource Base200}" VerticalAlignment="Center"/>
+                        </Grid>
+                    </DataTemplate>
+                </Button.ContentTemplate>
+            </Button>
+        </Grid>
+    </Grid>
+</UserControl>

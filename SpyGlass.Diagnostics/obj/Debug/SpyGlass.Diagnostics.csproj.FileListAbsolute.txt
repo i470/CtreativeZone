@@ -1,0 +1,14 @@
+C:\CPS\SpyGlass.Diagnostics.dll
+C:\CPS\SpyGlass.Diagnostics.pdb
+C:\code\CPS800\Feature_NextGenGUI\SpyGlass.Diagnostics\obj\Debug\SpyGlass.Diagnostics.csprojAssemblyReference.cache
+C:\code\CPS800\Feature_NextGenGUI\SpyGlass.Diagnostics\obj\Debug\DiagnosticsView.g.cs
+C:\code\CPS800\Feature_NextGenGUI\SpyGlass.Diagnostics\obj\Debug\SpyGlass.Diagnostics_MarkupCompile.cache
+C:\code\CPS800\Feature_NextGenGUI\SpyGlass.Diagnostics\obj\Debug\SpyGlass.Diagnostics_MarkupCompile.lref
+C:\code\CPS800\Feature_NextGenGUI\SpyGlass.Diagnostics\obj\Debug\DiagnosticsView.baml
+C:\code\CPS800\Feature_NextGenGUI\SpyGlass.Diagnostics\obj\Debug\SpyGlass.Diagnostics.g.resources
+C:\code\CPS800\Feature_NextGenGUI\SpyGlass.Diagnostics\obj\Debug\SpyGlass.Diagnostics.Properties.Resources.resources
+C:\code\CPS800\Feature_NextGenGUI\SpyGlass.Diagnostics\obj\Debug\SpyGlass.Diagnostics.csproj.GenerateResource.cache
+C:\code\CPS800\Feature_NextGenGUI\SpyGlass.Diagnostics\obj\Debug\SpyGlass.Diagnostics.csproj.CoreCompileInputs.cache
+C:\code\CPS800\Feature_NextGenGUI\SpyGlass.Diagnostics\obj\Debug\SpyGlass.Diagnostics.csproj.CopyComplete
+C:\code\CPS800\Feature_NextGenGUI\SpyGlass.Diagnostics\obj\Debug\SpyGlass.Diagnostics.dll
+C:\code\CPS800\Feature_NextGenGUI\SpyGlass.Diagnostics\obj\Debug\SpyGlass.Diagnostics.pdb

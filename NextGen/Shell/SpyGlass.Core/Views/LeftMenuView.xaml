@@ -1,0 +1,30 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:wpf="clr-namespace:SpyGlass.Design.Wpf;assembly=SpyGlass.Design"
+             
+ 
+    x:Class="SpyGlass.Core.LeftMenuView"
+             mc:Ignorable="d" 
+             d:DesignHeight="760" d:DesignWidth="52.914">
+    <Grid>
+
+        <Grid x:Name="LeftMenuGrid">
+            <Viewbox VerticalAlignment="Top">
+                <StackPanel Margin="5,20,5,5" Opacity="0.7">
+                    <Border  MouseLeftButtonUp="PackIcon_MouseLeftButtonUp" Cursor="Hand" Padding="2" Background="{DynamicResource Base100}">
+                    <wpf:PackIcon Kind="HomeOutline" Height="24" Width="24" Margin="0,0,0,10" />
+                    </Border>
+                    <wpf:PackIcon Kind="ImageFilterTiltShift" Height="24" Width="24" Margin="0,0,0,10"/>
+                    <wpf:PackIcon Kind="BackupOutline" Height="24" Width="24" Margin="0,0,0,10"/>
+                    <wpf:PackIcon Kind="SettingsOutline" Height="24" Width="24" Margin="0,0,0,10"/>
+                    <wpf:PackIcon Kind="WrenchOutline"  Height="24" Width="24" Margin="0,0,0,10"/>
+                </StackPanel>
+            </Viewbox>
+           
+        </Grid>
+
+    </Grid>
+</UserControl>

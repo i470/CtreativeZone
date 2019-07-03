@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Please note ►
+    Entity            Means                     Value
+    
+    Length            Length of BeltPath        a Double and must be positive and bigger than zero
+    ID                IPD's ID                  a Byte and must be between 0-255
+    Position          Position of an IPD        a Double and must be positive and Less than or equal to Length of BeltPath
+-->
+
+<BeltPath>
+
+  <Length>
+    4449
+  </Length>
+
+  <IPDList>
+    <IPD>
+      <ID>1</ID>
+      <Position>331</Position>
+    </IPD>
+    <IPD>
+      <ID>2</ID>
+      <Position>710</Position>
+    </IPD>
+    <IPD>
+      <ID>3</ID>
+      <Position>1222</Position>
+    </IPD>
+    <IPD>
+      <ID>4</ID>
+      <Position>2216</Position>
+    </IPD>
+    <IPD>
+      <ID>5</ID>
+      <Position>3418</Position>
+    </IPD>
+    <IPD>
+      <ID>6</ID>
+      <Position>4133</Position>
+    </IPD>
+    <IPD>
+      <ID>7</ID>
+      <Position>4449</Position>
+    </IPD>
+  </IPDList>
+
+</BeltPath>

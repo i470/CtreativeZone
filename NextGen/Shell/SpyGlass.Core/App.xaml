@@ -1,0 +1,25 @@
+﻿<prism:PrismApplication x:Class="SpyGlass.Core.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SpyGlass.Core"
+             xmlns:prism="http://prismlibrary.com/">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="CPS_Dark_Green" Color="#FF00391F"/>
+            <SolidColorBrush x:Key="CPS_Dark_Grey" Color="#FF3A3F42"/>
+            <SolidColorBrush x:Key="CPS_Mid_Green" Color="#FF006F51"/>
+            <ResourceDictionary.MergedDictionaries>
+
+                
+
+                <!-- Accent and AppTheme setting -->
+           
+
+                <ResourceDictionary Source="pack://application:,,,/SpyGlass.Design;component/Themes/SpyGlass.Dark.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/SpyGlass.Design;component/Themes/Colors/Gradients.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/SpyGlass.Design;component/Themes/SpyGlass.Defaults.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</prism:PrismApplication>

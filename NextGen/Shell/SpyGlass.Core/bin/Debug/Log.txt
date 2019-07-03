@@ -1,0 +1,1352 @@
+Filename: GUI_1_2019_06_17_04_31_02 
+File Created: 6/17/2019 4:31:02 PM 
+Site Name: FRB 
+Machine ID: 1 
+Subsytem Type: GUI 
+Subsystem ID: 1 
+
+[16:31:02.995748] [INFO] Waiting for a connection...
+[16:31:02.998253] [INFO] Waiting for a connection...
+[16:31:07.026929] [INFO] Failed from:    at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at CPS.Communications.TCP.AsyncTCPClient.Connect() in C:\Users\inga.bemman\Source\Repos\CPS8000\CPS\Communications\TCP\AsyncTCPClient.cs:line 80
+   at CPS.Communications.TCP.EventSender.Start() in C:\Users\inga.bemman\Source\Repos\CPS8000\CPS\Communications\TCP\EventSender.cs:line 38
+   at Sentinel.Program.<>c.<Main>b__10_1() in C:\Users\inga.bemman\Source\Repos\CPS8000\GUIApplication\Sentinel\Program.cs:line 130
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+[16:31:07.433119] [INFO] Exception in RestartXilinxDriver():
+[16:31:07.433119] [INFO] Exception in RestartXilinxDriver():
+Filename: MySubsytem_1_2019_06_17_04_31_07 
+File Created: 6/17/2019 4:31:07 PM 
+Site Name: TCS Application 
+Machine ID: 1 
+Subsytem Type: MySubsytem 
+Subsystem ID: 1 
+
+[16:31:07.506733] [INFO] Waiting for a connection...
+[16:31:07.560637] [INFO] Client Connected: 127.0.0.1:11003
+[16:31:07.560637] [INFO] Client Connect to the Server.
+[16:31:07.579358] [INFO] ErrorHandlerComponent    ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:31:07.579358] [INFO] Client Connected: 127.0.0.1:1
+[16:31:07.579358] [INFO] Client Connect to the Server.
+[16:31:07.586877] [INFO] hiral debug message 1
+[16:31:07.637530] [INFO] OHTrasportSubLC          ->EntryInactive                      : Current State = Inactive
+[16:31:07.660648] [INFO] OHSinglerSubLC           ->EntryInactive                      : Current State = Inactive
+[16:31:07.690747] [INFO] OperationsHub            ->EntryAppsInitializing              : Current State = AppsInitializing
+[16:31:07.699772] [INFO] hiral debug message 2
+[16:31:07.700273] [INFO] SSBManagerComponent      ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:31:07.713308] [INFO] MachineInterlocksSublifecycle->EntryIdle                          : Current State = Idle
+[16:31:07.700774] [INFO] OperationsHub            ->HandleAppInitializingConfirmAppRunning: Current State = AppsInitializing
+[16:31:07.701777] [INFO] OperationsHub            ->ExitAppsInitializing               : Current State = AppsInitializing
+[16:31:07.722833] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 9 Rising Edge
+[16:31:07.706298] [INFO] OperationsHub            ->EntryComponentsInitializing        : Current State = ComponentsInitializing
+[16:31:07.722833] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.723334] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 9 Falling Edge
+[16:31:07.719825] [INFO] hiral debug message 3
+[16:31:07.735868] [INFO] UserMessagesComponent    ->EnterInitializingState             : Current State = Initializing
+[16:31:07.723334] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.723334] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 10 Rising Edge
+[16:31:07.723334] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.723334] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 10 Falling Edge
+[16:31:07.723334] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.723334] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 11 Rising Edge
+[16:31:07.723334] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.736370] [INFO] UserMessagesComponent    ->ExitInitializingState              : Current State = Initializing
+[16:31:07.738876] [INFO] UserMessagesComponent    ->EnterReadyForMessagesState         : Current State = ReadyForMessages
+[16:31:07.776977] [INFO] AccountingComponent      ->EnterInitializingState             : Current State = Initializing
+[16:31:07.783494] [INFO] AccountingComponent      ->EnterReadyState                    : Current State = ReadyForShift
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 11 Falling Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 12 Rising Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 12 Falling Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 13 Rising Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 14 Rising Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 15 Rising Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 16 Rising Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 17 Rising Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 18 Rising Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 13 Falling Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 14 Falling Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 15 Falling Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 16 Falling Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 17 Falling Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 18 Falling Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 21 Falling Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 21 Rising Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 22 Falling Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 22 Rising Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 23 Falling Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 23 Rising Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 24 Falling Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 24 Rising Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 29 Rising Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.723836] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 29 Falling Edge
+[16:31:07.723836] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.726843] [INFO] MachineInterlocksComponent->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:31:07.741884] [INFO] Singler - Subscribing to Node: 0 Channel: 28 Rising Edge
+[16:31:07.741884] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.741884] [INFO] Singler - Subscribing to Node: 0 Channel: 28 Falling Edge
+[16:31:07.741884] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.742886] [INFO] SinglerComponent         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:31:07.776977] [INFO] TransportSubLifeCycle    ->EntryIdle                          : Current State = Idle
+[16:31:07.795527] [INFO] TransportComponent->LoadInitialParameters 
+[16:31:07.797031] [INFO] TransportComponent       ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:31:07.812575] [INFO] MIPD - Subscribing to Node: 0 Channel: 0 Falling Edge
+[16:31:07.812575] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.812575] [INFO] MIPD - Subscribing to Node: 0 Channel: 0 Rising Edge
+[16:31:07.812575] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.814578] [INFO] MIPDComponent            ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:31:07.832125] [INFO] NoteRegisterComponent    ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:31:07.847164] [INFO] Note Tracking #1 - Subscribing to Node: 0 Channel: 1 Falling Edge
+[16:31:07.847164] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.847164] [INFO] Note Tracking #1 - Subscribing to Node: 0 Channel: 1 Rising Edge
+[16:31:07.847164] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.848669] [INFO] Note Tracking #1         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:31:07.850172] [INFO] Note Tracking #2 - Subscribing to Node: 0 Channel: 2 Falling Edge
+[16:31:07.850172] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.850172] [INFO] Note Tracking #2 - Subscribing to Node: 0 Channel: 2 Rising Edge
+[16:31:07.850172] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.850172] [INFO] Note Tracking #2         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:31:07.851174] [INFO] Note Tracking #3 - Subscribing to Node: 0 Channel: 3 Falling Edge
+[16:31:07.851174] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.851174] [INFO] Note Tracking #3 - Subscribing to Node: 0 Channel: 3 Rising Edge
+[16:31:07.851174] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.851174] [INFO] Note Tracking #3         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:31:07.852178] [INFO] Note Tracking #4 - Subscribing to Node: 0 Channel: 4 Falling Edge
+[16:31:07.852178] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.852178] [INFO] Note Tracking #4 - Subscribing to Node: 0 Channel: 4 Rising Edge
+[16:31:07.852178] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.852679] [INFO] Note Tracking #4         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:31:07.853682] [INFO] Note Tracking #5 - Subscribing to Node: 0 Channel: 5 Falling Edge
+[16:31:07.853682] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.853682] [INFO] Note Tracking #5 - Subscribing to Node: 0 Channel: 5 Rising Edge
+[16:31:07.853682] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.853682] [INFO] Note Tracking #5         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:31:07.856690] [INFO] Note Tracking #6 - Subscribing to Node: 0 Channel: 6 Falling Edge
+[16:31:07.856690] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.856690] [INFO] Note Tracking #6 - Subscribing to Node: 0 Channel: 6 Rising Edge
+[16:31:07.856690] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.856690] [INFO] Note Tracking #6         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:31:07.858198] [INFO] Note Tracking #7 - Subscribing to Node: 0 Channel: 7 Falling Edge
+[16:31:07.858198] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:31:07.858198] [INFO] Note Tracking #7 - Subscribing to Node: 0 Channel: 7 Rising Edge
+[16:31:07.858198] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:31:07.858198] [INFO] Note Tracking #7         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:31:07.875239] [INFO] MOC                      ->EntryWaitForGUI                    : Current State = WaitForGUI
+[16:31:10.500800] [INFO] Waiting for a connection...
+[16:31:07.814578] [INFO] LoggingComponent         ->EntryInitializing                  : Current State = Initializing
+[16:31:44.845188] [INFO] Client Connected: 127.0.0.1:11002
+Filename: GUI_1_2019_06_17_04_32_47 
+File Created: 6/17/2019 4:32:47 PM 
+Site Name: FRB 
+Machine ID: 1 
+Subsytem Type: GUI 
+Subsystem ID: 1 
+
+[16:32:47.489408] [INFO] Waiting for a connection...
+[16:32:47.489408] [INFO] Waiting for a connection...
+[16:32:51.520321] [INFO] Failed from:    at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at CPS.Communications.TCP.AsyncTCPClient.Connect() in C:\Users\inga.bemman\Source\Repos\CPS8000\CPS\Communications\TCP\AsyncTCPClient.cs:line 80
+   at CPS.Communications.TCP.EventSender.Start() in C:\Users\inga.bemman\Source\Repos\CPS8000\CPS\Communications\TCP\EventSender.cs:line 38
+   at Sentinel.Program.<>c.<Main>b__10_1() in C:\Users\inga.bemman\Source\Repos\CPS8000\GUIApplication\Sentinel\Program.cs:line 130
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+[16:32:51.546085] [INFO] hiral debug message 1
+[16:32:51.566104] [INFO] OHTrasportSubLC          ->EntryInactive                      : Current State = Inactive
+[16:32:51.578274] [INFO] OHSinglerSubLC           ->EntryInactive                      : Current State = Inactive
+[16:32:51.595406] [INFO] OperationsHub            ->EntryAppsInitializing              : Current State = AppsInitializing
+[16:32:51.603906] [INFO] hiral debug message 2
+[16:32:51.604908] [INFO] OperationsHub            ->HandleAppInitializingConfirmAppRunning: Current State = AppsInitializing
+[16:32:51.606464] [INFO] OperationsHub            ->ExitAppsInitializing               : Current State = AppsInitializing
+[16:32:51.609976] [INFO] OperationsHub            ->EntryComponentsInitializing        : Current State = ComponentsInitializing
+[16:32:51.619503] [INFO] hiral debug message 3
+[16:32:51.631572] [INFO] UserMessagesComponent    ->EnterInitializingState             : Current State = Initializing
+[16:32:51.632091] [INFO] UserMessagesComponent    ->ExitInitializingState              : Current State = Initializing
+[16:32:51.634600] [INFO] UserMessagesComponent    ->EnterReadyForMessagesState         : Current State = ReadyForMessages
+[16:32:51.665752] [INFO] AccountingComponent      ->EnterInitializingState             : Current State = Initializing
+[16:32:51.669761] [INFO] AccountingComponent      ->EnterReadyState                    : Current State = ReadyForShift
+[16:32:51.684728] [INFO] LoggingComponent         ->EntryInitializing                  : Current State = Initializing
+[16:32:53.057739] [INFO] Exception in RestartXilinxDriver():
+[16:32:53.075315] [INFO]    at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at TCSApplication.Program.RestartXilinxDriver() in C:\Users\inga.bemman\Source\Repos\CPS8000\TCSApplication\Program.cs:line 465
+[16:32:53.222368] [INFO] ErrorHandlerComponent    ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:32:53.316673] [INFO] SSBManagerComponent      ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:32:53.327725] [INFO] MachineInterlocksSublifecycle->EntryIdle                          : Current State = Idle
+[16:32:53.335747] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 9 Rising Edge
+[16:32:53.336247] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:32:53.336247] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 9 Falling Edge
+[16:32:53.336748] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:32:53.336748] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 10 Rising Edge
+[16:32:53.336748] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:32:53.336748] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 10 Falling Edge
+[16:32:53.336748] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:32:53.336748] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 11 Rising Edge
+[16:32:53.336748] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:32:53.336748] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 11 Falling Edge
+[16:32:53.084337] [INFO] Waiting for a connection...
+Filename: GUI_1_2019_06_17_04_41_22 
+File Created: 6/17/2019 4:41:22 PM 
+Site Name: FRB 
+Machine ID: 1 
+Subsytem Type: GUI 
+Subsystem ID: 1 
+
+[16:41:22.886641] [INFO] Waiting for a connection...
+[16:41:22.886641] [INFO] Waiting for a connection...
+[16:41:26.953385] [INFO] Failed from:    at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at CPS.Communications.TCP.AsyncTCPClient.Connect() in C:\Users\inga.bemman\Source\Repos\CPS8000\CPS\Communications\TCP\AsyncTCPClient.cs:line 80
+   at CPS.Communications.TCP.EventSender.Start() in C:\Users\inga.bemman\Source\Repos\CPS8000\CPS\Communications\TCP\EventSender.cs:line 38
+   at Sentinel.Program.<>c.<Main>b__10_1() in C:\Users\inga.bemman\Source\Repos\CPS8000\GUIApplication\Sentinel\Program.cs:line 130
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+[16:41:27.274479] [INFO] Exception in RestartXilinxDriver():
+                                                              Filename: MySubsytem_1_2019_06_17_04_41_27 
+File Created: 6/17/2019 4:41:27 PM 
+Site Name: TCS Application 
+Machine ID: 1 
+Subsytem Type: MySubsytem 
+Subsystem ID: 1 
+
+[16:41:27.382876] [INFO] Waiting for a connection...
+[16:41:27.440060] [INFO] Client Connected: 127.0.0.1:11003
+[16:41:27.440060] [INFO] Client Connect to the Server.
+[16:41:27.457627] [INFO] ErrorHandlerComponent    ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:41:27.488256] [INFO] hiral debug message 1
+[16:41:27.490761] [INFO] Client Connected: 127.0.0.1:1
+[16:41:27.490761] [INFO] Client Connect to the Server.
+[16:41:27.516856] [INFO] OHTrasportSubLC          ->EntryInactive                      : Current State = Inactive
+[16:41:27.530411] [INFO] OHSinglerSubLC           ->EntryInactive                      : Current State = Inactive
+[16:41:27.543445] [INFO] SSBManagerComponent      ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:41:27.551968] [INFO] OperationsHub            ->EntryAppsInitializing              : Current State = AppsInitializing
+[16:41:27.554480] [INFO] MachineInterlocksSublifecycle->EntryIdle                          : Current State = Idle
+[16:41:27.567019] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 9 Rising Edge
+[16:41:27.567520] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.565014] [INFO] hiral debug message 2
+[16:41:27.566016] [INFO] OperationsHub            ->HandleAppInitializingConfirmAppRunning: Current State = AppsInitializing
+[16:41:27.568022] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 9 Falling Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.567520] [INFO] OperationsHub            ->ExitAppsInitializing               : Current State = AppsInitializing
+[16:41:27.573056] [INFO] OperationsHub            ->EntryComponentsInitializing        : Current State = ComponentsInitializing
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 10 Rising Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.583083] [INFO] hiral debug message 3
+[16:41:27.598635] [INFO] UserMessagesComponent    ->EnterInitializingState             : Current State = Initializing
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 10 Falling Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.599136] [INFO] UserMessagesComponent    ->ExitInitializingState              : Current State = Initializing
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 11 Rising Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 11 Falling Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 12 Rising Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.602143] [INFO] UserMessagesComponent    ->EnterReadyForMessagesState         : Current State = ReadyForMessages
+[16:41:27.664722] [INFO] AccountingComponent      ->EnterInitializingState             : Current State = Initializing
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 12 Falling Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 13 Rising Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 14 Rising Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 15 Rising Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 16 Rising Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 17 Rising Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 18 Rising Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 13 Falling Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 14 Falling Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 15 Falling Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 16 Falling Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 17 Falling Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 18 Falling Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 21 Falling Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 21 Rising Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 22 Falling Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 22 Rising Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 23 Falling Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 23 Rising Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 24 Falling Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 24 Rising Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 29 Rising Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.568523] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 29 Falling Edge
+[16:41:27.568523] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.572555] [INFO] MachineInterlocksComponent->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:41:27.590613] [INFO] Singler - Subscribing to Node: 0 Channel: 28 Rising Edge
+[16:41:27.590613] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.590613] [INFO] Singler - Subscribing to Node: 0 Channel: 28 Falling Edge
+[16:41:27.590613] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.592117] [INFO] SinglerComponent         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:41:27.629610] [INFO] TransportSubLifeCycle    ->EntryIdle                          : Current State = Idle
+[16:41:27.649664] [INFO] TransportComponent->LoadInitialParameters 
+[16:41:27.651169] [INFO] TransportComponent       ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:41:27.667229] [INFO] MIPD - Subscribing to Node: 0 Channel: 0 Falling Edge
+[16:41:27.667229] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.667229] [INFO] MIPD - Subscribing to Node: 0 Channel: 0 Rising Edge
+[16:41:27.667229] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.668733] [INFO] MIPDComponent            ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:41:27.689305] [INFO] NoteRegisterComponent    ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:41:27.706866] [INFO] Note Tracking #1 - Subscribing to Node: 0 Channel: 1 Falling Edge
+[16:41:27.706866] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.706866] [INFO] Note Tracking #1 - Subscribing to Node: 0 Channel: 1 Rising Edge
+[16:41:27.706866] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.708872] [INFO] Note Tracking #1         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:41:27.709874] [INFO] Note Tracking #2 - Subscribing to Node: 0 Channel: 2 Falling Edge
+[16:41:27.709874] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.709874] [INFO] Note Tracking #2 - Subscribing to Node: 0 Channel: 2 Rising Edge
+[16:41:27.709874] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.710376] [INFO] Note Tracking #2         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:41:27.711378] [INFO] Note Tracking #3 - Subscribing to Node: 0 Channel: 3 Falling Edge
+[16:41:27.711378] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.711378] [INFO] Note Tracking #3 - Subscribing to Node: 0 Channel: 3 Rising Edge
+[16:41:27.711378] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.711378] [INFO] Note Tracking #3         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:41:27.712381] [INFO] Note Tracking #4 - Subscribing to Node: 0 Channel: 4 Falling Edge
+[16:41:27.712381] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.712381] [INFO] Note Tracking #4 - Subscribing to Node: 0 Channel: 4 Rising Edge
+[16:41:27.712381] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.712381] [INFO] Note Tracking #4         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:41:27.713885] [INFO] Note Tracking #5 - Subscribing to Node: 0 Channel: 5 Falling Edge
+[16:41:27.713885] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.713885] [INFO] Note Tracking #5 - Subscribing to Node: 0 Channel: 5 Rising Edge
+[16:41:27.713885] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.713885] [INFO] Note Tracking #5         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:41:27.716894] [INFO] Note Tracking #6 - Subscribing to Node: 0 Channel: 6 Falling Edge
+[16:41:27.716894] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.716894] [INFO] Note Tracking #6 - Subscribing to Node: 0 Channel: 6 Rising Edge
+[16:41:27.716894] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.716894] [INFO] Note Tracking #6         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:41:27.717896] [INFO] Note Tracking #7 - Subscribing to Node: 0 Channel: 7 Falling Edge
+[16:41:27.718397] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:41:27.718397] [INFO] Note Tracking #7 - Subscribing to Node: 0 Channel: 7 Rising Edge
+[16:41:27.718397] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:41:27.718397] [INFO] Note Tracking #7         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:41:27.734962] [INFO] MOC                      ->EntryWaitForGUI                    : Current State = WaitForGUI
+[16:43:11.316277] [INFO] Exception in RestartXilinxDriver():
+[16:43:11.333322] [INFO] The system cannot find the file specified
+[16:43:11.338130] [INFO]    at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at TCSApplication.Program.RestartXilinxDriver() in C:\Users\inga.bemman\Source\Repos\CPS8000\TCSApplication\Program.cs:line 465
+[16:43:11.388827] [INFO] Waiting for a connection...
+[16:43:11.409904] [INFO] Waiting for a connection...
+[16:43:11.500215] [INFO] ErrorHandlerComponent    ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:43:11.568459] [INFO] SSBManagerComponent      ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:43:11.576488] [INFO] Client Connected: 127.0.0.1:1
+[16:43:11.576488] [INFO] Client Connect to the Server.
+[16:43:11.580999] [INFO] MachineInterlocksSublifecycle->EntryIdle                          : Current State = Idle
+[16:43:11.593557] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 9 Rising Edge
+[16:43:11.594058] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.594559] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 9 Falling Edge
+[16:43:11.594559] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 10 Rising Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 10 Falling Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 11 Rising Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 11 Falling Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 12 Rising Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 12 Falling Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 13 Rising Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 14 Rising Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 15 Rising Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 16 Rising Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 17 Rising Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 18 Rising Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 13 Falling Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 14 Falling Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 15 Falling Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 16 Falling Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 17 Falling Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 18 Falling Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 21 Falling Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 21 Rising Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 22 Falling Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 22 Rising Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 23 Falling Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 23 Rising Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 24 Falling Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 24 Rising Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 29 Rising Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.595060] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 29 Falling Edge
+[16:43:11.595060] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.599072] [INFO] MachineInterlocksComponent->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:43:11.619290] [INFO] Singler - Subscribing to Node: 0 Channel: 28 Rising Edge
+[16:43:11.619290] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.619290] [INFO] Singler - Subscribing to Node: 0 Channel: 28 Falling Edge
+[16:43:11.619290] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.620293] [INFO] SinglerComponent         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:43:11.649873] [INFO] TransportSubLifeCycle    ->EntryIdle                          : Current State = Idle
+[16:43:11.664410] [INFO] TransportComponent->LoadInitialParameters 
+[16:43:11.665413] [INFO] TransportComponent       ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:43:11.678448] [INFO] MIPD - Subscribing to Node: 0 Channel: 0 Falling Edge
+[16:43:11.678448] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.678448] [INFO] MIPD - Subscribing to Node: 0 Channel: 0 Rising Edge
+[16:43:11.678448] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.679452] [INFO] MIPDComponent            ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:43:11.696998] [INFO] NoteRegisterComponent    ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:43:11.708528] [INFO] Note Tracking #1 - Subscribing to Node: 0 Channel: 1 Falling Edge
+[16:43:11.708528] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.708528] [INFO] Note Tracking #1 - Subscribing to Node: 0 Channel: 1 Rising Edge
+[16:43:11.709030] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.710533] [INFO] Note Tracking #1         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:43:11.711537] [INFO] Note Tracking #2 - Subscribing to Node: 0 Channel: 2 Falling Edge
+[16:43:11.711537] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.711537] [INFO] Note Tracking #2 - Subscribing to Node: 0 Channel: 2 Rising Edge
+[16:43:11.711537] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.712040] [INFO] Note Tracking #2         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:43:11.713040] [INFO] Note Tracking #3 - Subscribing to Node: 0 Channel: 3 Falling Edge
+[16:43:11.713040] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.713040] [INFO] Note Tracking #3 - Subscribing to Node: 0 Channel: 3 Rising Edge
+[16:43:11.713040] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.713040] [INFO] Note Tracking #3         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:43:11.714044] [INFO] Note Tracking #4 - Subscribing to Node: 0 Channel: 4 Falling Edge
+[16:43:11.714044] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.714544] [INFO] Note Tracking #4 - Subscribing to Node: 0 Channel: 4 Rising Edge
+[16:43:11.714544] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.714544] [INFO] Note Tracking #4         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:43:11.715547] [INFO] Note Tracking #5 - Subscribing to Node: 0 Channel: 5 Falling Edge
+[16:43:11.715547] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.715547] [INFO] Note Tracking #5 - Subscribing to Node: 0 Channel: 5 Rising Edge
+[16:43:11.715547] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.715547] [INFO] Note Tracking #5         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:43:11.718053] [INFO] Note Tracking #6 - Subscribing to Node: 0 Channel: 6 Falling Edge
+[16:43:11.718053] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.718053] [INFO] Note Tracking #6 - Subscribing to Node: 0 Channel: 6 Rising Edge
+[16:43:11.718053] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.718555] [INFO] Note Tracking #6         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:43:11.719558] [INFO] Note Tracking #7 - Subscribing to Node: 0 Channel: 7 Falling Edge
+[16:43:11.719558] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:43:11.719558] [INFO] Note Tracking #7 - Subscribing to Node: 0 Channel: 7 Rising Edge
+[16:43:11.719558] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:43:11.719558] [INFO] Note Tracking #7         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:43:11.733094] [INFO] MOC                      ->EntryWaitForGUI                    : Current State = WaitForGUI
+[16:44:42.441224] [INFO] MOC                      ->HandleUnhandledEvent               : Current State = WaitForGUI
+[16:44:42.441727] [INFO] source->   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at CPS.AbstractComponentEventArgs..ctor(ComponentEvent eventRaised) in C:\Users\inga.bemman\Source\Repos\CPS8000\CPS\Base\ComponentEventArgs.cs:line 10
+   at CPS.ComponentEventArgs..ctor(ComponentEvent eventRaised) in C:\Users\inga.bemman\Source\Repos\CPS8000\CPS\Base\ComponentEventArgs.cs:line 227
+   at CPS.ComponentEvent..ctor(EventGroup eventType, Byte eventID) in C:\Users\inga.bemman\Source\Repos\CPS8000\CPS\Base\ComponentEvent.cs:line 27
+   at CPS.MOCGUIEvents..cctor() in C:\Users\inga.bemman\Source\Repos\CPS8000\CPS\Events\MOCEvents.cs:line 353
+   at TCSApplication.Communications.GUISender.SubscribeToEvents() in C:\Users\inga.bemman\Source\Repos\CPS8000\TCSApplication\Communications\GUISender.cs:line 26
+   at TCSApplication.Communications.GUISender..ctor(IAsyncTCPClient asyncTCPClient) in C:\Users\inga.bemman\Source\Repos\CPS8000\TCSApplication\Communications\GUISender.cs:line 20
+   at TCSApplication.Program.<>c.<Main>b__14_0() in C:\Users\inga.bemman\Source\Repos\CPS8000\TCSApplication\Program.cs:line 78
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+[16:44:42.448243] [INFO] ErrorHandlerComponent    ->HandleIncident                     : Current State = NotRegisteredWithMOC
+[16:44:42.459805] [INFO] 		Origin StackTrace:    at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at CPS.ErrorHandlerIncidentArgs..ctor(TComponentType componentType, TComponentID compId, Int32 compIncidentId, List`1 messageArgs, List`1 actionArgs) in C:\Users\inga.bemman\Source\Repos\CPS8000\CPS\Events\ErrorHandlerEvents.cs:line 196
+   at TCSApplication.Components.MOC.HandleUnhandledEvent(AbstractComponentEventArgs eventArgs) in C:\Users\inga.bemman\Source\Repos\CPS8000\TCSApplication\Components\MOC.cs:line 1431
+   at CPS.Component.<ProcessEventQueue>b__32_0() in C:\Users\inga.bemman\Source\Repos\CPS8000\CPS\Base\Component.cs:line 189
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+[16:44:42.459805] [INFO] arg.ComponentType = MachineOperationalCycleComponent
+[16:44:42.459805] [INFO] arg.ComponentID = 0
+[16:44:42.459805] [INFO] arg.ComponentIncidentID = 0
+[16:44:42.460281] [INFO] incidentParams._Severity = SystemCritical
+[16:44:42.460281] [INFO] incidentParams._Type = IncidentTypeDefault
+[16:44:42.461785] [INFO] MOC                      ->HandleIncidentResponse             : Current State = WaitForGUI
+[16:44:42.462286] [INFO] TransportComponent       ->HandleIncidentResponseCommon       : Current State = NotRegisteredWithMOC
+[16:44:42.462286] [INFO] TransportComponent       ->ProcessIncidentResponse            : Current State = NotRegisteredWithMOC
+[16:44:42.462286] [INFO] Incident: IncidentTypeDefault
+[16:45:04.519520] [INFO] TransportComponent       ->HandleGUIDiagnosticTurnTransportDefault: Current State = NotRegisteredWithMOC
+[16:45:04.520021] [INFO] TransportComponent       ->ClearMotorAlarms                   : Current State = NotRegisteredWithMOC
+[16:45:04.521025] [INFO] TransportSubLifeCycle    ->HandleMainLCSendCommand            : Current State = Idle
+[16:45:04.521527] [INFO] TransportComponent       ->DiagTurnTransport                  : Current State = NotRegisteredWithMOC
+[16:45:04.521527] [INFO] TransportSubLifeCycle    ->ExitIdle                           : Current State = Idle
+[16:45:04.522544] [INFO] TransportComponent       ->TurnTransport                      : Current State = NotRegisteredWithMOC
+[16:45:04.523554] [INFO] TransportComponent       ->TurnTransportArea                  : Current State = NotRegisteredWithMOC
+[16:45:04.524565] [INFO] TransportComponent       ->TurnMotorGroup                     : Current State = NotRegisteredWithMOC
+[16:45:04.526061] [INFO] TransportComponent       ->SubLCSendCommand                   : Current State = NotRegisteredWithMOC
+[16:45:04.527064] [INFO] TransportComponent       ->SubLCSendCommand                   : Current State = NotRegisteredWithMOC
+[16:45:04.527064] [INFO] TransportSubLifeCycle    ->EntryWaitForDriveReply             : Current State = WaitForDriveReply
+[16:45:04.527564] [INFO] TransportComponent       ->EnableMotorGroup                   : Current State = NotRegisteredWithMOC
+[16:45:04.527564] [INFO] TransportComponent       ->SubLCSendCommand                   : Current State = NotRegisteredWithMOC
+[16:45:04.528066] [INFO] TransportComponent       ->TurnTransportArea                  : Current State = NotRegisteredWithMOC
+[16:45:04.528066] [INFO] TransportComponent       ->TurnMotorGroup                     : Current State = NotRegisteredWithMOC
+[16:45:04.528066] [INFO] TransportComponent       ->SubLCSendCommand                   : Current State = NotRegisteredWithMOC
+[16:45:04.528066] [INFO] TransportComponent       ->SubLCSendCommand                   : Current State = NotRegisteredWithMOC
+[16:45:04.528567] [INFO] TransportComponent       ->EnableMotorGroup                   : Current State = NotRegisteredWithMOC
+[16:45:04.528567] [INFO] TransportComponent       ->SubLCSendCommand                   : Current State = NotRegisteredWithMOC
+[16:45:04.528567] [INFO] Transport Controller->SetValue: [ClearAlarms]
+[16:45:04.528567] [INFO] TransportComponent       ->TurnTransportArea                  : Current State = NotRegisteredWithMOC
+[16:45:04.528567] [INFO] TransportComponent       ->TurnMotorGroup                     : Current State = NotRegisteredWithMOC
+[16:45:04.528567] [INFO] TransportComponent       ->SubLCSendCommand                   : Current State = NotRegisteredWithMOC
+[16:45:04.528567] [INFO] TransportComponent       ->SubLCSendCommand                   : Current State = NotRegisteredWithMOC
+[16:45:04.529068] [INFO] TransportComponent       ->EnableMotorGroup                   : Current State = NotRegisteredWithMOC
+[16:45:04.529068] [INFO] TransportComponent       ->SubLCSendCommand                   : Current State = NotRegisteredWithMOC
+[16:45:04.530090] [INFO] TransportController - Sending Message: AR
+[16:45:04.531074] [INFO] Entering TransportController=>Send
+[16:45:04.531074] [INFO] TransportController - Sending: AR to IP Address: 192.168.0.50
+[16:45:04.532579] [INFO] Entering TransportController=>StartReceiving
+[16:45:05.017413] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:05.515741] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:06.016153] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:06.516992] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:07.017879] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:07.518268] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:08.019103] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:08.519458] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:09.020293] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:09.520641] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:10.021461] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:10.522296] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:11.023633] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:11.524469] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:12.025309] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:12.525635] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:13.026480] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:13.527377] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:14.027726] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:14.528618] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:15.029463] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:15.530293] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:16.031125] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:16.532029] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:17.032936] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:17.533269] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:18.034624] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:18.534949] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:19.035773] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:19.536107] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:20.036941] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:20.537829] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:21.038162] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:21.538511] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:22.039444] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:22.541265] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:23.041598] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:23.541931] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:24.042281] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:24.543113] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:25.044001] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:25.544834] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:26.045242] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:26.546179] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:27.046578] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:27.547430] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:28.048309] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:28.548641] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:29.049476] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:29.551816] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:30.052148] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:30.552482] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:31.053317] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:31.553695] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:32.054577] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:32.557404] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:33.059180] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:33.560454] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:34.061731] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:34.563580] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:35.065357] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:35.567146] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:36.068482] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:36.569762] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:37.071551] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:37.573311] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:38.074587] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:38.576865] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:39.078643] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:39.580436] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:40.081696] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:40.583974] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:41.085290] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:41.586565] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:42.088341] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:42.589632] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:43.091392] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:43.593170] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:44.094446] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:45:44.595727] [INFO] FAILED TO GetTCSOutputsNode() IN SINGLER DIAG
+[16:51:55.647120] [INFO] Exception in RestartXilinxDriver():
+[16:51:55.666744] [INFO] The system cannot find the file specified
+[16:51:55.762017] [INFO] Waiting for a connection...
+[16:51:55.746019] [INFO] Waiting for a connection...
+[16:51:55.852825] [INFO] ErrorHandlerComponent    ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:51:55.946160] [INFO] SSBManagerComponent      ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:51:55.955686] [INFO] MachineInterlocksSublifecycle->EntryIdle                          : Current State = Idle
+[16:51:55.963712] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 9 Rising Edge
+[16:51:55.964213] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:55.964213] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 9 Falling Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 10 Rising Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 10 Falling Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 11 Rising Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 11 Falling Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 12 Rising Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 12 Falling Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 13 Rising Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 14 Rising Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 15 Rising Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 16 Rising Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 17 Rising Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 18 Rising Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 13 Falling Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 14 Falling Edge
+[16:51:56.132300] [INFO] Client Connected: 127.0.0.1:11004
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 15 Falling Edge
+[16:51:56.132802] [INFO] Client Connect to the Server.
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 16 Falling Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 17 Falling Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 18 Falling Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 21 Falling Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 21 Rising Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 22 Falling Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 22 Rising Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 23 Falling Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 23 Rising Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 24 Falling Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 24 Rising Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 29 Rising Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:55.964715] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 29 Falling Edge
+[16:51:55.964715] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:55.967723] [INFO] MachineInterlocksComponent->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:51:55.987303] [INFO] Singler - Subscribing to Node: 0 Channel: 28 Rising Edge
+[16:51:55.987303] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:55.987303] [INFO] Singler - Subscribing to Node: 0 Channel: 28 Falling Edge
+[16:51:55.987303] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:55.988807] [INFO] SinglerComponent         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:51:56.026943] [INFO] TransportSubLifeCycle    ->EntryIdle                          : Current State = Idle
+[16:51:56.038975] [INFO] TransportComponent->LoadInitialParameters 
+[16:51:56.039981] [INFO] TransportComponent       ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:51:56.053524] [INFO] MIPD - Subscribing to Node: 0 Channel: 0 Falling Edge
+[16:51:56.053524] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:56.053524] [INFO] MIPD - Subscribing to Node: 0 Channel: 0 Rising Edge
+[16:51:56.053524] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:56.055025] [INFO] MIPDComponent            ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:51:56.072086] [INFO] NoteRegisterComponent    ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:51:56.087133] [INFO] Note Tracking #1 - Subscribing to Node: 0 Channel: 1 Falling Edge
+[16:51:56.087133] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:56.087133] [INFO] Note Tracking #1 - Subscribing to Node: 0 Channel: 1 Rising Edge
+[16:51:56.087133] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:56.088639] [INFO] Note Tracking #1         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:51:56.090146] [INFO] Note Tracking #2 - Subscribing to Node: 0 Channel: 2 Falling Edge
+[16:51:56.090146] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:56.090146] [INFO] Note Tracking #2 - Subscribing to Node: 0 Channel: 2 Rising Edge
+[16:51:56.090146] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:56.090146] [INFO] Note Tracking #2         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:51:56.091651] [INFO] Note Tracking #3 - Subscribing to Node: 0 Channel: 3 Falling Edge
+[16:51:56.091651] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:56.091651] [INFO] Note Tracking #3 - Subscribing to Node: 0 Channel: 3 Rising Edge
+[16:51:56.091651] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:56.091651] [INFO] Note Tracking #3         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:51:56.093155] [INFO] Note Tracking #4 - Subscribing to Node: 0 Channel: 4 Falling Edge
+[16:51:56.093155] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:56.093155] [INFO] Note Tracking #4 - Subscribing to Node: 0 Channel: 4 Rising Edge
+[16:51:56.093155] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:56.093155] [INFO] Note Tracking #4         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:51:56.094157] [INFO] Note Tracking #5 - Subscribing to Node: 0 Channel: 5 Falling Edge
+[16:51:56.094157] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:56.094157] [INFO] Note Tracking #5 - Subscribing to Node: 0 Channel: 5 Rising Edge
+[16:51:56.094157] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:56.094157] [INFO] Note Tracking #5         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:51:56.096163] [INFO] Note Tracking #6 - Subscribing to Node: 0 Channel: 6 Falling Edge
+[16:51:56.096163] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:56.096163] [INFO] Note Tracking #6 - Subscribing to Node: 0 Channel: 6 Rising Edge
+[16:51:56.096163] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:56.096163] [INFO] Note Tracking #6         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:51:56.096664] [INFO] Note Tracking #7 - Subscribing to Node: 0 Channel: 7 Falling Edge
+[16:51:56.096664] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:51:56.096664] [INFO] Note Tracking #7 - Subscribing to Node: 0 Channel: 7 Rising Edge
+[16:51:56.096664] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:51:56.096664] [INFO] Note Tracking #7         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:51:56.109740] [INFO] MOC                      ->EntryWaitForGUI                    : Current State = WaitForGUI
+[16:51:56.161927] [INFO] Client Connected: 127.0.0.1:1
+[16:51:56.161927] [INFO] Client Connect to the Server.
+[16:51:56.288349] [INFO] MOC                      ->HandleAllApplicationsRunning       : Current State = WaitForGUI
+[16:51:56.288851] [INFO] MOC                      ->ExitWaitForGUI                     : Current State = WaitForGUI
+[16:51:56.293874] [INFO] MOC                      ->EntryWaitForComponentConfirmation  : Current State = WaitForComponentConfirmation
+[16:51:56.294375] [INFO] MOC                      ->SendMOCActivationCode              : Current State = WaitForComponentConfirmation
+[16:51:56.298387] [INFO] ErrorHandlerComponent    ->HandleAreYouThere                  : Current State = NotRegisteredWithMOC
+[16:51:56.298387] [INFO] Note Tracking #7         ->HandleMOCAreYouThere               : Current State = NotRegisteredWithMOC
+[16:51:56.300392] [INFO] Note Tracking ==> Registering for notes: IPD Pos: 4476, Dest Set: 1
+[16:51:56.301896] [INFO] ErrorHandlerComponent    ->ExitNotRegisteredWithMOC           : Current State = NotRegisteredWithMOC
+[16:51:56.302397] [INFO] Note Tracking #7         ->ExitNotRegisteredWithMOC           : Current State = NotRegisteredWithMOC
+[16:51:56.305405] [INFO] ErrorHandlerComponent    ->EntryReadyForNewShift              : Current State = ReadyForNewShift
+[16:51:56.305405] [INFO] SSBManagerComponent      ->HandleAreYouThere                  : Current State = NotRegisteredWithMOC
+[16:51:56.306411] [INFO] Note Tracking #7         ->EntryReadyForNewShift              : Current State = ReadyForNewShift
+[16:51:56.306919] [INFO] MOC                      ->HandleActivationCodeReply          : Current State = WaitForComponentConfirmation
+[16:51:56.307419] [INFO] MOC Activation code Confirmation: 15, NoteTrackingComponent   -   1/14
+[16:51:56.307921] [INFO] SSBManagerComponent      ->ExitNotRegisteredWithMOC           : Current State = NotRegisteredWithMOC
+[16:51:56.309456] [INFO] MOC                      ->HandleActivationCodeReply          : Current State = WaitForComponentConfirmation
+[16:51:56.309456] [INFO] MOC Activation code Confirmation: 1, ErrorHandlerComponent   -   2/14
+[16:51:56.309456] [INFO] MOC                      ->HandleActivationCodeReply          : Current State = WaitForComponentConfirmation
+[16:51:56.309456] [INFO] MOC Activation code Confirmation: 2, SSBComponent   -   3/14
+[16:51:56.309456] [INFO] Note Tracking #6         ->HandleMOCAreYouThere               : Current State = NotRegisteredWithMOC
+[16:51:56.309456] [INFO] Note Tracking ==> Registering for notes: IPD Pos: 4170, Dest Set: 1
+[16:51:56.309930] [INFO] Note Tracking #6         ->ExitNotRegisteredWithMOC           : Current State = NotRegisteredWithMOC
+[16:51:56.309930] [INFO] Note Tracking #6         ->EntryReadyForNewShift              : Current State = ReadyForNewShift
+[16:51:56.309930] [INFO] MOC                      ->HandleActivationCodeReply          : Current State = WaitForComponentConfirmation
+[16:51:56.309930] [INFO] MOC Activation code Confirmation: 14, NoteTrackingComponent   -   4/14
+[16:51:56.309930] [INFO] Note Tracking #5         ->HandleMOCAreYouThere               : Current State = NotRegisteredWithMOC
+[16:51:56.309930] [INFO] Note Tracking ==> Registering for notes: IPD Pos: 3437, Dest Set: 1
+[16:51:56.310427] [INFO] Note Tracking #5         ->ExitNotRegisteredWithMOC           : Current State = NotRegisteredWithMOC
+[16:51:56.310427] [INFO] Note Tracking #5         ->EntryReadyForNewShift              : Current State = ReadyForNewShift
+[16:51:56.310427] [INFO] MOC                      ->HandleActivationCodeReply          : Current State = WaitForComponentConfirmation
+[16:51:56.310427] [INFO] MOC Activation code Confirmation: 13, NoteTrackingComponent   -   5/14
+[16:51:56.310427] [INFO] Note Tracking #4         ->HandleMOCAreYouThere               : Current State = NotRegisteredWithMOC
+[16:51:56.310427] [INFO] Note Tracking ==> Registering for notes: IPD Pos: 2218, Dest Set: 1
+[16:51:56.310929] [INFO] Note Tracking #4         ->ExitNotRegisteredWithMOC           : Current State = NotRegisteredWithMOC
+[16:51:56.310929] [INFO] Note Tracking #4         ->EntryReadyForNewShift              : Current State = ReadyForNewShift
+[16:51:56.310929] [INFO] MOC                      ->HandleActivationCodeReply          : Current State = WaitForComponentConfirmation
+[16:51:56.310929] [INFO] MOC Activation code Confirmation: 12, NoteTrackingComponent   -   6/14
+[16:51:56.310929] [INFO] Note Tracking #3         ->HandleMOCAreYouThere               : Current State = NotRegisteredWithMOC
+[16:51:56.310929] [INFO] Note Tracking ==> Registering for notes: IPD Pos: 1222, Dest Set: 1
+[16:51:56.311430] [INFO] Note Tracking #3         ->ExitNotRegisteredWithMOC           : Current State = NotRegisteredWithMOC
+[16:51:56.311430] [INFO] Note Tracking #3         ->EntryReadyForNewShift              : Current State = ReadyForNewShift
+[16:51:56.311430] [INFO] MOC                      ->HandleActivationCodeReply          : Current State = WaitForComponentConfirmation
+[16:51:56.311430] [INFO] MOC Activation code Confirmation: 11, NoteTrackingComponent   -   7/14
+[16:51:56.311430] [INFO] Note Tracking #2         ->HandleMOCAreYouThere               : Current State = NotRegisteredWithMOC
+[16:51:56.311430] [INFO] Note Tracking ==> Registering for notes: IPD Pos: 702, Dest Set: 1
+[16:51:56.311430] [INFO] Note Tracking #2         ->ExitNotRegisteredWithMOC           : Current State = NotRegisteredWithMOC
+[16:51:56.311430] [INFO] Note Tracking #2         ->EntryReadyForNewShift              : Current State = ReadyForNewShift
+[16:51:56.311430] [INFO] MOC                      ->HandleActivationCodeReply          : Current State = WaitForComponentConfirmation
+[16:51:56.311430] [INFO] MOC Activation code Confirmation: 10, NoteTrackingComponent   -   8/14
+[16:51:56.311430] [INFO] Note Tracking #1         ->HandleMOCAreYouThere               : Current State = NotRegisteredWithMOC
+[16:51:56.311931] [INFO] Note Tracking ==> Registering for notes: IPD Pos: 330, Dest Set: 1
+[16:51:56.311931] [INFO] Note Tracking #1         ->ExitNotRegisteredWithMOC           : Current State = NotRegisteredWithMOC
+[16:51:56.311931] [INFO] Note Tracking #1         ->EntryReadyForNewShift              : Current State = ReadyForNewShift
+[16:51:56.311931] [INFO] MOC                      ->HandleActivationCodeReply          : Current State = WaitForComponentConfirmation
+[16:51:56.311931] [INFO] MOC Activation code Confirmation: 9, NoteTrackingComponent   -   9/14
+[16:51:56.312433] [INFO] NoteRegisterComponent    ->HandleNotRegisteredWithMOCAreYouThere: Current State = NotRegisteredWithMOC
+[16:51:56.314436] [INFO] NoteRegisterComponent    ->ExitNotRegisteredWithMOC           : Current State = NotRegisteredWithMOC
+[16:51:56.314938] [INFO] SSBManagerComponent      ->EntryReadyForNewShift              : Current State = ReadyForNewShift
+[16:51:56.315439] [INFO] MachineInterlocksComponent->HandleNotRegisteredWithMOCAreYouThere: Current State = NotRegisteredWithMOC
+[16:51:56.316943] [INFO] MachineInterlocksComponent->ExitNotRegisteredWithMOC           : Current State = NotRegisteredWithMOC
+[16:51:56.319951] [INFO] MachineInterlocksComponent->EntryReadyForNewShift              : Current State = ReadyForNewShift
+[16:51:56.320452] [INFO] NoteRegisterComponent    ->EntryReadyForNewShift              : Current State = ReadyForNewShift
+[16:51:56.320452] [INFO] SinglerComponent         ->HandleMOCAreYouThere               : Current State = NotRegisteredWithMOC
+[16:51:56.321957] [INFO] NoteRegisterComponent    ->HandleCommonRegisterClientForNoteInformation: Current State = ReadyForNewShift
+[16:51:56.321957] [INFO] SinglerComponent         ->ExitNotRegisteredWithMOC           : Current State = NotRegisteredWithMOC
+[16:51:56.323963] [INFO] NoteRegisterComponent    ->HandleCommonRegisterClientForNoteInformation: Current State = ReadyForNewShiftClientCount: 1
+[16:51:56.324464] [INFO] TransportComponent       ->HandleAreYouThere                  : Current State = NotRegisteredWithMOC
+[16:51:56.325468] [INFO] TransportComponent       ->ExitNotRegisteredWithMOC           : Current State = NotRegisteredWithMOC
+[16:51:56.325967] [INFO] NoteRegister - Client registered. CompID: 15, CompType NoteTrackingComponent, ComPos: 4476, Dest Det: 1, Inform when routed: True, ClientCount: 1
+[16:51:56.325967] [INFO] NoteRegisterComponent    ->HandleCommonRegisterClientForNoteInformation: Current State = ReadyForNewShift
+[16:51:56.325967] [INFO] NoteRegisterComponent    ->HandleCommonRegisterClientForNoteInformation: Current State = ReadyForNewShiftClientCount: 2
+[16:51:56.325967] [INFO] MIPDComponent            ->HandleNotRegisteredWithMOCAreYouThere: Current State = NotRegisteredWithMOC
+[16:51:56.326468] [INFO] SinglerComponent         ->EntryReadyForNewShift              : Current State = ReadyForNewShift
+[16:51:56.326468] [INFO] NoteRegister - Client registered. CompID: 14, CompType NoteTrackingComponent, ComPos: 4170, Dest Det: 1, Inform when routed: True, ClientCount: 2
+[16:51:56.326468] [INFO] NoteRegisterComponent    ->HandleCommonRegisterClientForNoteInformation: Current State = ReadyForNewShift
+[16:51:56.326468] [INFO] NoteRegisterComponent    ->HandleCommonRegisterClientForNoteInformation: Current State = ReadyForNewShiftClientCount: 3
+[16:51:56.326468] [INFO] MOC                      ->HandleActivationCodeReply          : Current State = WaitForComponentConfirmation
+[16:51:56.326468] [INFO] MOC Activation code Confirmation: 7, NoteRegisterComponent   -   10/14
+[16:51:56.326974] [INFO] MOC                      ->HandleActivationCodeReply          : Current State = WaitForComponentConfirmation
+[16:51:56.326974] [INFO] MOC Activation code Confirmation: 3, MachineInterlocksComponent   -   11/14
+[16:51:56.326974] [INFO] MOC                      ->HandleActivationCodeReply          : Current State = WaitForComponentConfirmation
+[16:51:56.326974] [INFO] MOC Activation code Confirmation: 4, SinglerComponent   -   12/14
+[16:51:56.326974] [INFO] MOC                      ->HandleActivationCodeReply          : Current State = WaitForComponentConfirmation
+[16:51:56.326974] [INFO] MOC Activation code Confirmation: 5, TransportComponent   -   13/14
+[16:51:56.326974] [INFO] MOC                      ->HandleActivationCodeReply          : Current State = WaitForComponentConfirmation
+[16:51:56.326974] [INFO] MOC Activation code Confirmation: 6, MainIPDComponent   -   14/14
+[16:51:56.327471] [INFO] MIPDComponent            ->ExitNotRegisteredWithMOC           : Current State = NotRegisteredWithMOC
+[16:51:56.327471] [INFO] MOC                      ->ExitWaitForComponentConfirmation   : Current State = WaitForComponentConfirmation
+[16:51:56.327972] [INFO] Note Tracking #1         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.327972] [INFO] NoteRegister - Client registered. CompID: 13, CompType NoteTrackingComponent, ComPos: 3437, Dest Det: 1, Inform when routed: True, ClientCount: 3
+[16:51:56.327972] [INFO] NoteRegisterComponent    ->HandleCommonRegisterClientForNoteInformation: Current State = ReadyForNewShift
+[16:51:56.327972] [INFO] NoteRegisterComponent    ->HandleCommonRegisterClientForNoteInformation: Current State = ReadyForNewShiftClientCount: 4
+[16:51:56.327972] [INFO] Note Tracking #1         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.327972] [INFO] Note Tracking #1         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.327972] [INFO] Note Tracking #2         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.327972] [INFO] Note Tracking #2         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.327972] [INFO] Note Tracking #2         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.328474] [INFO] MOC                      ->EntryWaitForNewShift               : Current State = WaitForNewShift
+[16:51:56.328474] [INFO] NoteRegister - Client registered. CompID: 12, CompType NoteTrackingComponent, ComPos: 2218, Dest Det: 1, Inform when routed: True, ClientCount: 4
+[16:51:56.328474] [INFO] NoteRegisterComponent    ->HandleCommonRegisterClientForNoteInformation: Current State = ReadyForNewShift
+[16:51:56.328474] [INFO] NoteRegisterComponent    ->HandleCommonRegisterClientForNoteInformation: Current State = ReadyForNewShiftClientCount: 5
+[16:51:56.328474] [INFO] NoteRegister - Client registered. CompID: 11, CompType NoteTrackingComponent, ComPos: 1222, Dest Det: 1, Inform when routed: True, ClientCount: 5
+[16:51:56.328474] [INFO] NoteRegisterComponent    ->HandleCommonRegisterClientForNoteInformation: Current State = ReadyForNewShift
+[16:51:56.328474] [INFO] NoteRegisterComponent    ->HandleCommonRegisterClientForNoteInformation: Current State = ReadyForNewShiftClientCount: 6
+[16:51:56.329476] [INFO] Note Tracking #3         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329476] [INFO] Note Tracking #3         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329476] [INFO] Note Tracking #3         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329476] [INFO] Note Tracking #3         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329476] [INFO] Note Tracking #3         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329476] [INFO] Note Tracking #3 ==> HandleNoteRegisterConfirm: Client ID: 5  Component ID: 11  Component Event: 
+[16:51:56.329476] [INFO] TransportComponent       ->EntryConfigureMotors               : Current State = ConfigureMotors
+[16:51:56.329978] [INFO] Note Tracking #4         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #4         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #4         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #4         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #4 ==> HandleNoteRegisterConfirm: Client ID: 4  Component ID: 12  Component Event: 
+[16:51:56.329978] [INFO] Note Tracking #4         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #5         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #5         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #5         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #5 ==> HandleNoteRegisterConfirm: Client ID: 3  Component ID: 13  Component Event: 
+[16:51:56.329978] [INFO] Note Tracking #5         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #5         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #6         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #6         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #6 ==> HandleNoteRegisterConfirm: Client ID: 2  Component ID: 14  Component Event: 
+[16:51:56.329978] [INFO] Note Tracking #6         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #6         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #6         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #7         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #7 ==> HandleNoteRegisterConfirm: Client ID: 1  Component ID: 15  Component Event: 
+[16:51:56.329978] [INFO] Note Tracking #7         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #7         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #7         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #7         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #1         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #1         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #2         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.329978] [INFO] Note Tracking #2         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.330479] [INFO] TransportComponent       ->ExitConfigureMotors                : Current State = ConfigureMotors
+[16:51:56.330479] [INFO] Note Tracking #1         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.330479] [INFO] Note Tracking #2         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.330479] [INFO] Note Tracking #2 ==> HandleNoteRegisterConfirm: Client ID: 6  Component ID: 10  Component Event: 
+[16:51:56.330479] [INFO] NoteRegister - Client registered. CompID: 10, CompType NoteTrackingComponent, ComPos: 702, Dest Det: 1, Inform when routed: True, ClientCount: 6
+[16:51:56.330479] [INFO] Note Tracking #3         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.330479] [INFO] NoteRegisterComponent    ->HandleCommonRegisterClientForNoteInformation: Current State = ReadyForNewShift
+[16:51:56.330479] [INFO] Note Tracking #4         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.330479] [INFO] NoteRegisterComponent    ->HandleCommonRegisterClientForNoteInformation: Current State = ReadyForNewShiftClientCount: 7
+[16:51:56.330479] [INFO] Note Tracking #5         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.330479] [INFO] Note Tracking #6         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.330479] [INFO] Note Tracking #7         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.330980] [INFO] NoteRegister - Client registered. CompID: 9, CompType NoteTrackingComponent, ComPos: 330, Dest Det: 1, Inform when routed: True, ClientCount: 7
+[16:51:56.330980] [INFO] Note Tracking #1         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.330980] [INFO] Note Tracking #1 ==> HandleNoteRegisterConfirm: Client ID: 7  Component ID: 9  Component Event: 
+[16:51:56.330980] [INFO] Note Tracking #7         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.330980] [INFO] Note Tracking #6         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.330980] [INFO] Note Tracking #5         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.330980] [INFO] Note Tracking #4         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.330980] [INFO] Note Tracking #2         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.330980] [INFO] Note Tracking #3         ->HandleNoteRegisterConfirm          : Current State = ReadyForNewShift
+[16:51:56.330980] [INFO] TransportComponent       ->EntryReadyForNewShift              : Current State = ReadyForNewShift
+[16:51:56.331482] [INFO] MIPDComponent            ->EntryReadyForNewShift              : Current State = ReadyForNewShift
+[16:52:23.110941] [INFO] Exception in RestartXilinxDriver():
+[16:52:23.110941] [INFO] Exception in RestartXilinxDriver():
+Filename: MySubsytem_1_2019_06_17_04_52_23 
+File Created: 6/17/2019 4:52:23 PM 
+Site Name: TCS Application 
+Machine ID: 1 
+Subsytem Type: MySubsytem 
+Subsystem ID: 1 
+
+[16:52:23.122003] [INFO] The system cannot find the file specified
+[16:52:23.130694] [INFO]    at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at TCSApplication.Program.RestartXilinxDriver() in C:\Users\inga.bemman\Source\Repos\CPS8000\TCSApplication\Program.cs:line 465
+[16:52:23.169847] [INFO] Waiting for a connection...
+[16:52:23.208002] [INFO] Waiting for a connection...
+[16:52:23.213514] [INFO] Client Connected: 127.0.0.1:11004
+[16:52:23.214015] [INFO] Client Connect to the Server.
+[16:52:23.251172] [INFO] Client Connected: 127.0.0.1:1
+[16:52:23.251675] [INFO] Client Connect to the Server.
+[16:52:23.305868] [INFO] ErrorHandlerComponent    ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:52:23.407143] [INFO] SSBManagerComponent      ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:52:23.423180] [INFO] MachineInterlocksSublifecycle->EntryIdle                          : Current State = Idle
+[16:52:23.432705] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 9 Rising Edge
+[16:52:23.433207] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.433207] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 9 Falling Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 10 Rising Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 10 Falling Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 11 Rising Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 11 Falling Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 12 Rising Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 12 Falling Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 13 Rising Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 14 Rising Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 15 Rising Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 16 Rising Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 17 Rising Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 18 Rising Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 13 Falling Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 14 Falling Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 15 Falling Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 16 Falling Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 17 Falling Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 18 Falling Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 21 Falling Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 21 Rising Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 22 Falling Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 22 Rising Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 23 Falling Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 23 Rising Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 24 Falling Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 24 Rising Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 29 Rising Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.433710] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 29 Falling Edge
+[16:52:23.433710] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.436716] [INFO] MachineInterlocksComponent->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:52:23.460281] [INFO] Singler - Subscribing to Node: 0 Channel: 28 Rising Edge
+[16:52:23.460281] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.460281] [INFO] Singler - Subscribing to Node: 0 Channel: 28 Falling Edge
+[16:52:23.460281] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.461783] [INFO] SinglerComponent         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:52:23.496876] [INFO] TransportSubLifeCycle    ->EntryIdle                          : Current State = Idle
+[16:52:23.510914] [INFO] TransportComponent->LoadInitialParameters 
+[16:52:23.512417] [INFO] TransportComponent       ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:52:23.528962] [INFO] MIPD - Subscribing to Node: 0 Channel: 0 Falling Edge
+[16:52:23.528962] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.528962] [INFO] MIPD - Subscribing to Node: 0 Channel: 0 Rising Edge
+[16:52:23.528962] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.530465] [INFO] MIPDComponent            ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:52:23.549016] [INFO] NoteRegisterComponent    ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:52:23.568066] [INFO] Note Tracking #1 - Subscribing to Node: 0 Channel: 1 Falling Edge
+[16:52:23.568066] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.568066] [INFO] Note Tracking #1 - Subscribing to Node: 0 Channel: 1 Rising Edge
+[16:52:23.568066] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.569571] [INFO] Note Tracking #1         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:52:23.570072] [INFO] Note Tracking #2 - Subscribing to Node: 0 Channel: 2 Falling Edge
+[16:52:23.570072] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.570072] [INFO] Note Tracking #2 - Subscribing to Node: 0 Channel: 2 Rising Edge
+[16:52:23.570072] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.570573] [INFO] Note Tracking #2         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:52:23.571074] [INFO] Note Tracking #3 - Subscribing to Node: 0 Channel: 3 Falling Edge
+[16:52:23.571074] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.571074] [INFO] Note Tracking #3 - Subscribing to Node: 0 Channel: 3 Rising Edge
+[16:52:23.571074] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.571074] [INFO] Note Tracking #3         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:52:23.571576] [INFO] Note Tracking #4 - Subscribing to Node: 0 Channel: 4 Falling Edge
+[16:52:23.571576] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.571576] [INFO] Note Tracking #4 - Subscribing to Node: 0 Channel: 4 Rising Edge
+[16:52:23.571576] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.572077] [INFO] Note Tracking #4         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:52:23.573080] [INFO] Note Tracking #5 - Subscribing to Node: 0 Channel: 5 Falling Edge
+[16:52:23.573080] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.573080] [INFO] Note Tracking #5 - Subscribing to Node: 0 Channel: 5 Rising Edge
+[16:52:23.573080] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.573080] [INFO] Note Tracking #5         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:52:23.576088] [INFO] Note Tracking #6 - Subscribing to Node: 0 Channel: 6 Falling Edge
+[16:52:23.576088] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.576589] [INFO] Note Tracking #6 - Subscribing to Node: 0 Channel: 6 Rising Edge
+[16:52:23.576589] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.576589] [INFO] Note Tracking #6         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:52:23.577591] [INFO] Note Tracking #7 - Subscribing to Node: 0 Channel: 7 Falling Edge
+[16:52:23.577591] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[16:52:23.577591] [INFO] Note Tracking #7 - Subscribing to Node: 0 Channel: 7 Rising Edge
+[16:52:23.577591] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[16:52:23.577591] [INFO] Note Tracking #7         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[16:52:23.590626] [INFO] MOC                      ->EntryWaitForGUI                    : Current State = WaitForGUI
+[17:08:55.682955] [INFO] Exception in RestartXilinxDriver():
+[17:08:55.700956] [INFO]    at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at TCSApplication.Program.RestartXilinxDriver() in C:\Users\inga.bemman\Source\Repos\CPS8000\TCSApplication\Program.cs:line 465
+[17:08:55.739067] [INFO] Waiting for a connection...
+[17:08:55.851949] [INFO] ErrorHandlerComponent    ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[17:08:55.935423] [INFO] SSBManagerComponent      ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[17:08:55.947470] [INFO] MachineInterlocksSublifecycle->EntryIdle                          : Current State = Idle
+[17:08:55.958525] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 9 Rising Edge
+[17:08:55.959027] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[17:08:55.959528] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 9 Falling Edge
+[17:08:55.960031] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[17:08:55.960031] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 10 Rising Edge
+[17:08:55.960031] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[17:08:55.960031] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 10 Falling Edge
+[17:08:55.960031] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[17:08:55.960031] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 11 Rising Edge
+[17:08:55.960031] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[17:08:55.960031] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 11 Falling Edge
+[17:08:55.960031] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[17:08:55.960031] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 12 Rising Edge
+[17:08:56.046793] [INFO] Client Connected: 127.0.0.1:11004
+[17:08:55.960031] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[17:08:55.960031] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 12 Falling Edge
+[17:08:55.960031] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[17:08:55.960031] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 13 Rising Edge
+[17:08:55.960031] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.209842] [INFO] Exception in RestartXilinxDriver():
+[08:45:40.234917] [INFO]    at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at TCSApplication.Program.RestartXilinxDriver() in C:\Users\inga.bemman\Source\Repos\CPS8000\TCSApplication\Program.cs:line 465
+[08:45:40.293689] [INFO] Waiting for a connection...
+[08:45:40.373964] [INFO] ErrorHandlerComponent    ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[08:45:40.404086] [INFO] Client Connected: 127.0.0.1:1
+[08:45:40.404086] [INFO] Client Connect to the Server.
+[08:45:40.482342] [INFO] SSBManagerComponent      ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[08:45:40.494374] [INFO] MachineInterlocksSublifecycle->EntryIdle                          : Current State = Idle
+[08:45:40.506914] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 9 Rising Edge
+[08:45:40.507415] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.507415] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 9 Falling Edge
+[08:45:40.507917] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 10 Rising Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 10 Falling Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 11 Rising Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 11 Falling Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 12 Rising Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 12 Falling Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 13 Rising Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 14 Rising Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 15 Rising Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 16 Rising Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 17 Rising Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 18 Rising Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 13 Falling Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 14 Falling Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 15 Falling Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 16 Falling Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 17 Falling Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 18 Falling Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 21 Falling Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 21 Rising Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 22 Falling Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 22 Rising Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 23 Falling Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 23 Rising Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 24 Falling Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 24 Rising Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 29 Rising Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.508418] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 29 Falling Edge
+[08:45:40.508418] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.511426] [INFO] MachineInterlocksComponent->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[08:45:40.535498] [INFO] Singler - Subscribing to Node: 0 Channel: 28 Rising Edge
+[08:45:40.535498] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.535498] [INFO] Singler - Subscribing to Node: 0 Channel: 28 Falling Edge
+[08:45:40.535498] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.537005] [INFO] SinglerComponent         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[08:45:40.580659] [INFO] TransportSubLifeCycle    ->EntryIdle                          : Current State = Idle
+[08:45:40.598215] [INFO] TransportComponent->LoadInitialParameters 
+[08:45:40.601721] [INFO] TransportComponent       ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[08:45:40.619777] [INFO] MIPD - Subscribing to Node: 0 Channel: 0 Falling Edge
+[08:45:40.619777] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.619777] [INFO] MIPD - Subscribing to Node: 0 Channel: 0 Rising Edge
+[08:45:40.619777] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.621783] [INFO] MIPDComponent            ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[08:45:40.641335] [INFO] NoteRegisterComponent    ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[08:45:40.658380] [INFO] Note Tracking #1 - Subscribing to Node: 0 Channel: 1 Falling Edge
+[08:45:40.658882] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.658882] [INFO] Note Tracking #1 - Subscribing to Node: 0 Channel: 1 Rising Edge
+[08:45:40.658882] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.660385] [INFO] Note Tracking #1         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[08:45:40.661889] [INFO] Note Tracking #2 - Subscribing to Node: 0 Channel: 2 Falling Edge
+[08:45:40.661889] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.661889] [INFO] Note Tracking #2 - Subscribing to Node: 0 Channel: 2 Rising Edge
+[08:45:40.661889] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.661889] [INFO] Note Tracking #2         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[08:45:40.662891] [INFO] Note Tracking #3 - Subscribing to Node: 0 Channel: 3 Falling Edge
+[08:45:40.662891] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.662891] [INFO] Note Tracking #3 - Subscribing to Node: 0 Channel: 3 Rising Edge
+[08:45:40.662891] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.662891] [INFO] Note Tracking #3         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[08:45:40.663894] [INFO] Note Tracking #4 - Subscribing to Node: 0 Channel: 4 Falling Edge
+[08:45:40.663894] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.663894] [INFO] Note Tracking #4 - Subscribing to Node: 0 Channel: 4 Rising Edge
+[08:45:40.663894] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.663894] [INFO] Note Tracking #4         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[08:45:40.664897] [INFO] Note Tracking #5 - Subscribing to Node: 0 Channel: 5 Falling Edge
+[08:45:40.664897] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.664897] [INFO] Note Tracking #5 - Subscribing to Node: 0 Channel: 5 Rising Edge
+[08:45:40.664897] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.665398] [INFO] Note Tracking #5         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[08:45:40.667404] [INFO] Note Tracking #6 - Subscribing to Node: 0 Channel: 6 Falling Edge
+[08:45:40.667404] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.667404] [INFO] Note Tracking #6 - Subscribing to Node: 0 Channel: 6 Rising Edge
+[08:45:40.667404] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.667404] [INFO] Note Tracking #6         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[08:45:40.667905] [INFO] Note Tracking #7 - Subscribing to Node: 0 Channel: 7 Falling Edge
+[08:45:40.667905] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[08:45:40.667905] [INFO] Note Tracking #7 - Subscribing to Node: 0 Channel: 7 Rising Edge
+[08:45:40.667905] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[08:45:40.667905] [INFO] Note Tracking #7         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[08:45:40.682945] [INFO] MOC                      ->EntryWaitForGUI                    : Current State = WaitForGUI
+[08:50:43.573814] [INFO] MOC                      ->HandleCloseApplication             : Current State = WaitForGUI
+[11:24:32.932148] [INFO] Exception in RestartXilinxDriver():
+[11:24:32.951744] [INFO] The system cannot find the file specified
+[11:24:32.962298] [INFO]    at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at TCSApplication.Program.RestartXilinxDriver() in C:\Users\inga.bemman\Source\Repos\CPS8000\TCSApplication\Program.cs:line 465
+[11:24:33.026538] [INFO] Waiting for a connection...
+[11:24:33.081201] [INFO] Waiting for a connection...
+[11:24:34.106675] [INFO] Failed from:    at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at CPS.Communications.TCP.AsyncTCPClient.Connect() in C:\Users\inga.bemman\Source\Repos\CPS8000\CPS\Communications\TCP\AsyncTCPClient.cs:line 80
+   at CPS.Communications.TCP.EventSender.Start() in C:\Users\inga.bemman\Source\Repos\CPS8000\CPS\Communications\TCP\EventSender.cs:line 38
+   at TCSApplication.Program.<>c.<Main>b__14_0() in C:\Users\inga.bemman\Source\Repos\CPS8000\TCSApplication\Program.cs:line 80
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+[11:24:34.124684] [INFO] ErrorHandlerComponent    ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[11:24:34.189738] [INFO] SSBManagerComponent      ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[11:24:34.199263] [INFO] MachineInterlocksSublifecycle->EntryIdle                          : Current State = Idle
+[11:24:34.207895] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 9 Rising Edge
+[11:24:34.207895] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.208396] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 9 Falling Edge
+[11:24:34.208396] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 10 Rising Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 10 Falling Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 11 Rising Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 11 Falling Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 12 Rising Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 12 Falling Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 13 Rising Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 14 Rising Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 15 Rising Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 16 Rising Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 17 Rising Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 18 Rising Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 13 Falling Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 14 Falling Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 15 Falling Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 16 Falling Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 17 Falling Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 18 Falling Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 21 Falling Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 21 Rising Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 22 Falling Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 22 Rising Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 23 Falling Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 23 Rising Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 24 Falling Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 24 Rising Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 29 Rising Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.208911] [INFO] Machine Interlock - Subscribing to Node: 0 Channel: 29 Falling Edge
+[11:24:34.208911] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.211404] [INFO] MachineInterlocksComponent->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[11:24:34.224459] [INFO] Singler - Subscribing to Node: 0 Channel: 28 Rising Edge
+[11:24:34.224459] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.224459] [INFO] Singler - Subscribing to Node: 0 Channel: 28 Falling Edge
+[11:24:34.224459] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.225462] [INFO] SinglerComponent         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[11:24:34.252234] [INFO] TransportSubLifeCycle    ->EntryIdle                          : Current State = Idle
+[11:24:34.264785] [INFO] TransportComponent->LoadInitialParameters 
+[11:24:34.265788] [INFO] TransportComponent       ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[11:24:34.275815] [INFO] MIPD - Subscribing to Node: 0 Channel: 0 Falling Edge
+[11:24:34.275815] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.275815] [INFO] MIPD - Subscribing to Node: 0 Channel: 0 Rising Edge
+[11:24:34.275815] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.276817] [INFO] MIPDComponent            ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[11:24:34.289350] [INFO] NoteRegisterComponent    ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[11:24:34.300380] [INFO] Note Tracking #1 - Subscribing to Node: 0 Channel: 1 Falling Edge
+[11:24:34.300380] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.300380] [INFO] Note Tracking #1 - Subscribing to Node: 0 Channel: 1 Rising Edge
+[11:24:34.300380] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.301383] [INFO] Note Tracking #1         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[11:24:34.302385] [INFO] Note Tracking #2 - Subscribing to Node: 0 Channel: 2 Falling Edge
+[11:24:34.302385] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.302385] [INFO] Note Tracking #2 - Subscribing to Node: 0 Channel: 2 Rising Edge
+[11:24:34.302385] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.302385] [INFO] Note Tracking #2         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[11:24:34.302887] [INFO] Note Tracking #3 - Subscribing to Node: 0 Channel: 3 Falling Edge
+[11:24:34.302887] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.302887] [INFO] Note Tracking #3 - Subscribing to Node: 0 Channel: 3 Rising Edge
+[11:24:34.302887] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.303388] [INFO] Note Tracking #3         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[11:24:34.303889] [INFO] Note Tracking #4 - Subscribing to Node: 0 Channel: 4 Falling Edge
+[11:24:34.303889] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.303889] [INFO] Note Tracking #4 - Subscribing to Node: 0 Channel: 4 Rising Edge
+[11:24:34.303889] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.303889] [INFO] Note Tracking #4         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[11:24:34.304891] [INFO] Note Tracking #5 - Subscribing to Node: 0 Channel: 5 Falling Edge
+[11:24:34.304891] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.304891] [INFO] Note Tracking #5 - Subscribing to Node: 0 Channel: 5 Rising Edge
+[11:24:34.304891] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.304891] [INFO] Note Tracking #5         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[11:24:34.308400] [INFO] Note Tracking #6 - Subscribing to Node: 0 Channel: 6 Falling Edge
+[11:24:34.308400] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.308400] [INFO] Note Tracking #6 - Subscribing to Node: 0 Channel: 6 Rising Edge
+[11:24:34.308400] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.308400] [INFO] Note Tracking #6         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[11:24:34.309403] [INFO] Note Tracking #7 - Subscribing to Node: 0 Channel: 7 Falling Edge
+[11:24:34.309403] [INFO] SSBManagerComponent      ->SubscribeToInputChannelFallingEdge : Current State = NotRegisteredWithMOC
+[11:24:34.309403] [INFO] Note Tracking #7 - Subscribing to Node: 0 Channel: 7 Rising Edge
+[11:24:34.309403] [INFO] SSBManagerComponent      ->SubscribeToInputChannelRisingEdge  : Current State = NotRegisteredWithMOC
+[11:24:34.309904] [INFO] Note Tracking #7         ->EntryNotRegisteredWithMOC          : Current State = NotRegisteredWithMOC
+[11:24:34.324445] [INFO] MOC                      ->EntryWaitForGUI                    : Current State = WaitForGUI

@@ -1,0 +1,161 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SpyGlass.Core"
+             xmlns:wpf="clr-namespace:SpyGlass.Design.Wpf;assembly=SpyGlass.Design"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             x:Class="SpyGlass.Core.Views.TitleBarView"
+             mc:Ignorable="d" 
+             d:DesignHeight="40" d:DesignWidth="1250">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/SpyGlass.Design;component/Themes/SpyGlass.Dark.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/SpyGlass.Design;component/Themes/Colors/Gradients.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/SpyGlass.Design;component/Themes/SpyGlass.Defaults.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="VisualStateGroup">
+                <VisualState x:Name="Diagnostics">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background)" Storyboard.TargetName="brdDiagnostics">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource Base100}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background)" Storyboard.TargetName="brdMessages">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource LimeGreen}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(TextElement.Foreground)" Storyboard.TargetName="icM">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource Base100}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(TextElement.Foreground)" Storyboard.TargetName="icD">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource LimeGreen}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+                <VisualState x:Name="Messages">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background)" Storyboard.TargetName="brdMessages">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource Base100}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(TextElement.Foreground)" Storyboard.TargetName="icM">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource LimeGreen}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+                <VisualState x:Name="Account">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background)" Storyboard.TargetName="brdAccount">
+                            <DiscreteObjectKeyFrame KeyTime="0">
+                                <DiscreteObjectKeyFrame.Value>
+                                    <SolidColorBrush Color="{DynamicResource Base100Color}"/>
+                                </DiscreteObjectKeyFrame.Value>
+                            </DiscreteObjectKeyFrame>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.HorizontalAlignment)" Storyboard.TargetName="brdAccount">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static HorizontalAlignment.Stretch}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.VerticalAlignment)" Storyboard.TargetName="brdAccount">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static VerticalAlignment.Stretch}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="brdAccount">
+                            <EasingThicknessKeyFrame KeyTime="0" Value="0"/>
+                        </ThicknessAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(TextElement.Foreground)" Storyboard.TargetName="icA">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource LimeGreen}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+                <VisualState x:Name="Help">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background)" Storyboard.TargetName="brdHelp">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource Base100}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(TextElement.Foreground)" Storyboard.TargetName="icH">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource LimeGreen}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+        <Grid x:Name="TitleBarGrid" Grid.Row="0" Background="{DynamicResource PrimaryHueLightBrush}" Margin="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="94"/>
+                <ColumnDefinition Width="899*"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+            </Grid.ColumnDefinitions>
+            <Border x:Name="brdDiagnostics" Grid.Column="2" BorderThickness="0" MouseLeftButtonUp="BrdDiagnostics_MouseLeftButtonUp" Cursor="Hand" MouseLeftButtonDown="BrdDiagnostics_MouseLeftButtonDown" MouseEnter="BrdDiagnostics_MouseEnter">
+                <wpf:PackIcon x:Name="icD" 
+                    Kind="Diamond" 
+                                             
+                    ToolTip="Diagnostics" 
+                    Foreground="{DynamicResource Base100}"
+                    Height="20" Width="20" 
+HorizontalAlignment="Center" VerticalAlignment="Center" Cursor="Hand" />
+            </Border>
+            <Border x:Name="brdMessages" Grid.Column="3" 
+               
+                Margin="0" Background="{DynamicResource LimeGreen}" MouseLeftButtonUp="BrdMessages_MouseLeftButtonUp" Padding="0" Cursor="Hand" MouseEnter="BrdMessages_MouseEnter" 
+                                             >
+                <wpf:PackIcon x:Name="icM" 
+                    Kind="Email" 
+                                             
+                    ToolTip="Account" 
+                    Foreground="{DynamicResource Base100}"
+                    Height="20" Width="20" 
+HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+            <Border x:Name="brdAccount" Grid.Column="4" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" MouseLeftButtonUp="BrdAccount_MouseLeftButtonUp" 
+                    Cursor="Hand" MouseEnter="BrdAccount_MouseEnter"
+                >
+                <wpf:PackIcon x:Name="icA" 
+                    Kind="Account" 
+                         Width="20"
+                              Height="20"
+                              VerticalAlignment="Center" HorizontalAlignment="Center"
+                    ToolTip="Account" 
+                    Foreground="{DynamicResource Base100}" MouseLeftButtonUp="IcA_MouseLeftButtonUp"/>
+            </Border>
+            <Border x:Name="brdHelp" Grid.Column="5" Background="{DynamicResource LimeGreen}" MouseLeftButtonUp="BrdHelp_MouseLeftButtonUp" Cursor="Hand" MouseEnter="BrdHelp_MouseEnter" 
+                                             
+                
+                >
+                <wpf:PackIcon x:Name="icH" 
+                    Kind="Help" 
+                                             
+                    ToolTip="Exit" 
+                    Foreground="{DynamicResource Base100}" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20" Height="20" MouseLeftButtonUp="IcH_MouseLeftButtonUp"/>
+            </Border>
+            <Border x:Name="brdExit" Grid.Column="6" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" 
+                Margin="8" Cursor="Hand" 
+                >
+                <wpf:PackIcon 
+                    Kind="LoginVariant" Width="20" Height="20"
+                    ToolTip="Exit" 
+                    Foreground="{DynamicResource Base100}" 
+                    Background="{DynamicResource LimeGreen}" 
+                    Cursor="Hand" 
+                    MouseDoubleClick="PackIcon_MouseDoubleClick" 
+                    MouseLeftButtonDown="PackIcon_MouseLeftButtonDown"/>
+            </Border>
+            <TextBlock HorizontalAlignment="Left" Margin="14,12.2,0,12.2" 
+                TextWrapping="Wrap" Text="CPS 8000" 
+                VerticalAlignment="Center" 
+                Foreground="{DynamicResource Base100}" FontWeight="Bold"/>
+        </Grid>
+
+    </Grid>
+</UserControl>
